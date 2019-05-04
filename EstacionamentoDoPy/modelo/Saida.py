@@ -5,6 +5,12 @@ class Saida:
 
     def geraPagamento(self):
         hrEntrada = self.entrada.dataEntrada
-        totalhrs = self.hrSaida = hrEntrada
-        totalReais = totalhrs * (50 % 24)
+        totalhrs = self.hrSaida - hrEntrada
+        totalReais = 0
+        # Modificando como o pagamento funcionando para um metodo de diaria
+        if totalhrs > 24:
+            totalReais = 50 + 50
+        elif totalhrs <= 24:
+            totalReais = 50
+
         return totalReais
