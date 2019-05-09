@@ -4,10 +4,4 @@ class Patio:
     # Classe Vaga
     def __init__(self, numvagas):
         self.numvagas = numvagas
-class Vaga:
-    def __init__(self, idvaga, patio):
-        self.patio = patio
-        if idvaga < patio.numvagas:
-            self.idvaga = idvaga
-        else:
-            self.idvaga = None
+        self.vagas = []

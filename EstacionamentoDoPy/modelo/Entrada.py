@@ -3,3 +3,5 @@ class Entrada:
         self.dataEntrada = dataEntrada
         self.veiculo = veiculo
         self.patio = patio
+    def addTovagas(self):
+        patio.vagas.insert
