@@ -5,3 +5,14 @@ class Patio:
     def __init__(self, numvagas):
         self.numvagas = numvagas
         self.vagas = []
+
+    def percorrepatio(self, comando):
+        for x in self.vagas:
+            eval(comando)
+
+
+    def limitapatio(self, entrada):
+        if self.vagas.__len__() >= self.numvagas:
+            return -1
+        else:
+            return self.vagas.append(entrada)

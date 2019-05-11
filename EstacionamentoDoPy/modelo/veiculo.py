@@ -3,6 +3,3 @@ class Veiculo:
         self.placa = placa
         self.donoNome = donoNome
         self.veiNome = veiNome
-
-
-    

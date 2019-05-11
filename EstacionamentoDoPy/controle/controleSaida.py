@@ -11,4 +11,6 @@ def removerCar(bilheteEntrada):
     ano = agora.strftime("%Y")
     hrsaida = f"{hora}:{minu}:{seg}.{dia}/{mes}/{ano}"
     s = Saida(bilheteEntrada, hrsaida)
+    # aqui chamarei uma função para remover da lista o veic que será implementada em pátio para
+    # armazenar quais espaços vagos existem no pátio.
     return s.geraPagamento()

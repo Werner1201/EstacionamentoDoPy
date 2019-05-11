@@ -1,7 +1,4 @@
 class Entrada:
-    def __init__(self, dataEntrada, veiculo, patio):
+    def __init__(self, dataEntrada, veiculo):
         self.dataEntrada = dataEntrada
         self.veiculo = veiculo
-        self.patio = patio
-    def addTovagas(self):
-        patio.vagas.insert
